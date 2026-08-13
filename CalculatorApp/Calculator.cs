@@ -1,0 +1,31 @@
+using System;
+
+namespace CalculatorApp
+{
+    /// <summary>
+    /// Holds the core calculator logic, kept separate from Program.cs
+    /// so it is easy to unit test and easy to extend during practice.
+    /// </summary>
+    public class Calculator
+    {
+        public double Add(double a, double b) => a + b;
+
+        public double Subtract(double a, double b) => a - b;
+
+        public double Multiply(double a, double b) => a * b;
+
+        public double Divide(double a, double b)
+        {
+            if (b == 0)
+            {
+                throw new DivideByZeroException("Cannot divide by zero.");
+            }
+
+            return a / b;
+        }
+
+        // Practice idea: add more operations here, e.g. Power, SquareRoot,
+        // Modulus, Percentage — then commit each one as a separate git commit
+        // so you have real history to practice rebase/merge on.
+    }
+}

@@ -1,0 +1,31 @@
+## Visual Studio / .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS folders
+.vs/
+.vscode/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Rider / other IDEs
+.idea/
+*.DotSettings.user
+
+## OS files
+.DS_Store
+Thumbs.db
