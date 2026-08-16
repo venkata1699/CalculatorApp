@@ -15,10 +15,13 @@ namespace CalculatorApp
 
         }
 
-        public double Subtract(double a, double b) => a - b;
-        
+        public double Subtract(double a, double b)
+        {
+            return a - b;
+        }
 
-      // This is the code.
+
+        // This is the code.
         public double Multiply(double a, double b)
         {
            return a* b;
