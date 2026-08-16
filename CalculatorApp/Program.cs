@@ -12,7 +12,7 @@ namespace CalculatorApp
             Console.WriteLine("=========================================");
             Console.WriteLine("           Simple C# Calculator          ");
             Console.WriteLine("=========================================");
-
+            Console.WriteLine("This calculator supports addition, subtraction, multiplication, and division.");
             while (keepRunning)
             {
                 PrintMenu();
