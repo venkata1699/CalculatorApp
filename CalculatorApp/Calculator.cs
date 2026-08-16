@@ -31,9 +31,11 @@ namespace CalculatorApp
             if (b == 0)
             {
                 throw new DivideByZeroException("Cannot divide by zero.");
+                return 0;
             }
 
-            return a / b;
+            double result = 0;
+           return a / b;
         }
 
         // Practice idea: add more operations here, e.g. Power, SquareRoot,
