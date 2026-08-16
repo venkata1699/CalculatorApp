@@ -18,7 +18,7 @@ namespace CalculatorApp
         public double Subtract(double a, double b) => a - b;
         
 
-        // this is the multiplication.not the devision
+      // This is the code.
         public double Multiply(double a, double b)
         {
            return a* b;
