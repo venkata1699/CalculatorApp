@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace CalculatorApp
 {
@@ -36,6 +37,11 @@ namespace CalculatorApp
 
             double result = 0;
            return a / b;
+        }
+
+        public double add2(double a, double b)
+        {
+            return a + b;
         }
 
         // Practice idea: add more operations here, e.g. Power, SquareRoot,
