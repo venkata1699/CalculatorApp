@@ -9,6 +9,11 @@ namespace CalculatorApp
     /// </summary>
     public class Calculator
     {
+        public double Subtract1(double a, double b)
+        {
+            return a - b;
+        }
+
         // this is the addition i have done for this calculator
 
         public double Multiply1(double a, double b)
